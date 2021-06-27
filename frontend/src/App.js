@@ -5,7 +5,7 @@ import Header from './Components/Header';
 const App = () => {
   return (
     <div>
-      <Header />
+      <Header title = "Images Gallery"/>
     </div>
   );
 }
