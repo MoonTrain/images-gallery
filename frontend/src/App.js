@@ -1,7 +1,11 @@
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import { Component } from 'react';
+import Header from './Components/Header';
+
 const App = () => {
   return (
     <div>
-      <h1>Images Gallery</h1>
+      <Header />
     </div>
   );
 }
